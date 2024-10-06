@@ -7,7 +7,7 @@ import NotFound from './pages/NotFound'
 import DoctorList from './pages/DoctorList'
 import DoctorProfile from './pages/DoctorProfile'
 import ConsultationForm from './pages/ConsultationForm'
-import Prescription from './pages/prescription'
+import Prescription from './pages/Prescription'
 import PrescriptionForm from './pages/prescription-form'
 import Admin from './pages/Admin'
 
