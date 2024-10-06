@@ -1,7 +1,7 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-axios.defaults.baseURL = "http://localhost:5000";
+axios.defaults.baseURL = import.meta.env.VITE_API_URL;
 
 const initialState = {
     isLoading: false,
@@ -10,7 +10,7 @@ const initialState = {
 }
 
 export const registerDoctor = createAsyncThunk('/doctor/',
-    async (formData, {rejectWithValue}) => {
+    async (formData, { rejectWithValue }) => {
         try {
             const { data } = await axios.post(
                 '/api/doctor/register',
