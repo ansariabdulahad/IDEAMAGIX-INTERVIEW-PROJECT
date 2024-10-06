@@ -1,0 +1,84 @@
+{
+  "doctorSignUp": [
+    {
+      "type": "text",
+      "label": "Name",
+      "name": "name",
+      "placeholder": "Enter your full name"
+    },
+    {
+      "type": "text",
+      "label": "speciality",
+      "name": "speciality",
+      "placeholder": "Enter your speciality"
+    },
+    {
+      "type": "text",
+      "label": "Email",
+      "name": "email",
+      "placeholder": "Enter your email"
+    },
+    {
+      "type": "text",
+      "label": "Phone Number",
+      "name": "phoneNumber",
+      "placeholder": "Enter your phone number"
+    },
+    {
+      "type": "text",
+      "label": "Years of Experience",
+      "name": "yearsOfExperience",
+      "placeholder": "Enter your years of experience"
+    },
+    {
+      "type": "password",
+      "label": "Password",
+      "name": "password",
+      "placeholder": "Create a password"
+    }
+  ],
+  "patientSignUp": [
+    {
+      "type": "text",
+      "label": "Name",
+      "name": "name",
+      "placeholder": "Enter your full name"
+    },
+    {
+      "type": "number",
+      "label": "Age",
+      "name": "age",
+      "placeholder": "Enter your age"
+    },
+    {
+      "type": "email",
+      "label": "Email",
+      "name": "email",
+      "placeholder": "Enter your email"
+    },
+    {
+      "type": "tel",
+      "label": "Phone Number",
+      "name": "phoneNumber",
+      "placeholder": "Enter your phone number"
+    },
+    {
+      "type": "text",
+      "label": "History of Surgery",
+      "name": "historyOfSurgery",
+      "placeholder": "Enter your surgery history"
+    },
+    {
+      "type": "text",
+      "label": "History of Illness",
+      "name": "historyOfIllness",
+      "placeholder": "Enter your illness history"
+    },
+    {
+      "type": "password",
+      "label": "Password",
+      "name": "password",
+      "placeholder": "Create a password"
+    }
+  ]
+}
