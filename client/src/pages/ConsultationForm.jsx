@@ -26,8 +26,6 @@ const ConsultationForm = () => {
     const navigate = useNavigate();
     const { consultations } = useSelector(state => state.consult);
 
-    // console.log(doctor);
-
     const handleSubmit = (e) => {
         e.preventDefault();
         if (formData.currentIllness == "" || formData.recentSurgery == "" ||
@@ -39,7 +37,6 @@ const ConsultationForm = () => {
             formData.doctorId = doctor._id;
             dispatch(createConsultation(formData)).then((data) => {
                 if (data.payload.success) {
-                    console.log(formData);
                     alert("Consultation data successfully sent");
                     setFormData(initialFormData);
                     navigate('/doctors-list');

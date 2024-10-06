@@ -17,8 +17,6 @@ const Prescription = () => {
         dispatch(getConsultationDataByDoctorId(doctorId));
     }, [dispatch]);
 
-    console.log(doctorConsultation);
-
     const handlePrescription = (consult) => {
         navigate('/prescription-form', { state: { consult } })
     }

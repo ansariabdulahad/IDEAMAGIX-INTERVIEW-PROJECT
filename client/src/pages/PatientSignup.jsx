@@ -30,9 +30,6 @@ const PatientSignup = () => {
         dispatch(getPatientList());
     }, [dispatch]);
 
-    console.log(doctorList);
-    console.log(patientList);
-
     const handleSubmit = (e) => {
         e.preventDefault();
 

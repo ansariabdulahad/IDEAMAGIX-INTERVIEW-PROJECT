@@ -9,17 +9,10 @@ import { useNavigate } from 'react-router-dom'
 
 const DoctorList = () => {
 
-    // const [currentPatient, setCurrentPatient] = useState(null);
     const { doctorList, patientList } = useSelector(state => state.listOfUser);
     const { userInfo } = useSelector(state => state.user);
     const dispatch = useDispatch();
     const navigate = useNavigate();
-
-    // useEffect(() => {
-    //     const patient = patientList.filter((data) => data.email == patientList.email);
-    //     console.log(patient);
-    //     setCurrentPatient(patient);
-    // }, [userInfo]);
 
     useEffect(() => {
         dispatch(getDoctorList());

@@ -14,14 +14,7 @@ const DoctorProfile = () => {
     const navigate = useNavigate();
 
     useEffect(() => {
-        dispatch(getConsultationData()).then((data) => {
-            if (data.payload.success) {
-                // const doctorId = data.payload.data.filter((doc) => doc.doctorId == doctorId);
-                // console.log(doctorId);
-
-                // dispatch(getConsultationDataByDoctorId())
-            }
-        });
+        dispatch(getConsultationData());
     }, [dispatch]);
 
     useEffect(() => {
